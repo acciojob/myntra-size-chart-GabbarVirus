@@ -1,2 +1,27 @@
 
+table, th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    /* if you remove this boeder-collapse every part will be hainng separate border */
+
+}
+
+table{
+    height: 200px;
+    width: 100%;
+}
+th{
+    height: 50px;
+    background-color: yellowgreen;
+}
+
+#row-1{
+    background-color: brown;
+}
+#row-2{
+    background-color: cyan;
+}
+#row-3{
+    background-color: darkslategray;
+}
 /* Your CSS Code here. */
